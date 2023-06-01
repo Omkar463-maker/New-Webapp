@@ -1,0 +1,12 @@
+[control]
+control
+
+[nodes]
+node01
+node02
+
+
+[servers]
+control
+node01
+node02

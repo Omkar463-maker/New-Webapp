@@ -1,0 +1,7 @@
+- name: install Javascript
+  hosts: nodes
+  tasks:
+  - name: ensure javascript is installed
+    apt:
+      name: javascript
+      state: latest

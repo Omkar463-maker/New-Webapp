@@ -5,3 +5,7 @@
     apt:
       name: javascript
       state: latest
+  - name: install docker
+    apt:
+      name: docker.io
+      state: latest
